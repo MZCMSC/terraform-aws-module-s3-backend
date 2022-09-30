@@ -23,7 +23,7 @@ output "kms_key" {
 }
 
 output "s3_bucket_acl" {
-  value = aws_s3_bucket_acl.name.acl
+  value = aws_s3_bucket_acl.this.acl
 }
 
 output "s3_versioning" {
