@@ -10,7 +10,7 @@
 
 ```hcl
 module "terraform-state-backend" {
-  source = "git::https://github.com/YGCHO-repo/terraform-aws-module-s3.git"
+  source = "git::https://github.com/MZCMSC/terraform-aws-module-s3-backend.git"
 
     region = var.region
 
