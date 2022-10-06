@@ -35,4 +35,5 @@ planfile
 .history/
 .history/*
 
+# OSX Mac Trash
 .DS_Store
